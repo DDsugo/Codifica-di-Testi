@@ -1,0 +1,837 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+
+  <teiHeader>
+
+    <fileDesc>
+
+      <titleStmt>
+        <title>Lista delle entità nominate per alcuni articoli ed entrate bibliografiche contenuti nella rivista La Farfalla - persone, luoghi, enti, opere e temi</title>
+        <respStmt>
+          <resp>Codifica TEI P5 a cura di</resp>
+          <name xml:id="LDD">Lorenzo Del Debbio</name>
+        </respStmt>
+        <respStmt>
+          <resp>Codifica TEI P5 a cura di</resp>
+          <name xml:id="LD">Lorenzo Davini</name>
+        </respStmt>
+      </titleStmt>
+      
+      <publicationStmt>
+        <publisher>Università di Pisa</publisher>
+        <pubPlace>Pisa</pubPlace>
+        <date when="2026">2026</date>
+        <availability status="free">
+          <p>Edizione digitale realizzata per il corso di Codifica di Testi, Università di Pisa,
+             a.a. 2025-2026. Distribuzione libera per fini didattici.</p>
+        </availability>
+        <idno type="filename">entita_nominate.xml</idno>
+      </publicationStmt>
+
+      <notesStmt>
+        <note type="source">Liste di entità nominate ricavate da alcuni testi codificati in <ref target="Farfalla.xml">Farfalla.xml</ref> sul modello delle liste di autorità del progetto COVerLeSS. Ogni voce riporta l'identificatore (xml:id) usato come valore del riferimento (@ref) nel testo principale e dove disponibile, un collegamento a una risorsa esterna per la disambiguazione.</note>
+      </notesStmt>
+
+      <sourceDesc>
+
+        <!-- Lista delle persone -->
+        <listPerson>
+
+          <person xml:id="neera" n="8">
+            <persName type="real" role="author">
+              <ref target="https://www.wikidata.org/wiki/Q3337722"/>
+              <forename>Anna</forename>
+              <forename>Maria</forename>
+              <surname>Zuccari</surname>
+              <surname>Radius</surname>
+              <addName type="pseudonym">Neera</addName>
+            </persName>
+            <idno type="VIAF">http://viaf.org/viaf/120697223</idno>
+            <sex>F</sex>
+            <birth><date when="1846">1846</date></birth>
+            <death><date when="1918">1918</date></death>
+            <note source="https://www.treccani.it/enciclopedia/neera">Pseudonimo della scrittrice Anna Maria Radius Zuccari; caratteristica delle sue opere, sia di meditazione o autobiografiche, sia narrative, è un'esigenza morale che, mentre le fa vagheggiare per la donna, in reazione al dilagante materialismo, una più profonda vita spirituale, la tiene poi lontana dagli opposti eccessi del femminismo e del sentimentalismo.</note>
+          </person>
+
+          <person xml:id="penelope" n="1">
+            <persName type="fictional">
+              <ref target="https://www.wikidata.org/wiki/Q165769"/>
+              <forename>Penelope</forename>
+            </persName>
+            <note source="https://www.treccani.it/enciclopedia/penelope">Nella mitologia greca, la fedele moglie di Ulisse.</note>
+          </person>
+
+          <person xml:id="antonioBresciani" n="1">
+            <persName type="real">
+              <ref target="https://www.wikidata.org/wiki/Q3619306"/>
+              <forename>Antonio</forename>
+              <surname>Bresciani</surname>
+            </persName>
+            <idno type="VIAF">http://viaf.org/viaf/9837565</idno>
+            <sex>M</sex>
+            <birth><date when="1798">1798</date></birth>
+            <death><date when="1862">1862</date></death>
+            <note source="https://www.treccani.it/enciclopedia/antonio-bresciani">Scrittore, sacerdote dal 1821 e gesuita dal 1828; tenace avversario del romanticismo, che ai suoi occhi si identificava con l'aborrito liberalismo, scrisse romanzi di carattere storico, tutti editi dalla Civiltà Cattolica indulgendo a un'eloquenza e a un'esteriore ricchezza rappresentativa. Interessanti le descrizioni dei suoi viaggi.</note>
+          </person>
+
+          <person xml:id="medoroSavini" n="1">
+            <persName type="real">
+              <ref target="https://www.wikidata.org/wiki/Q63952919"/>
+              <forename>Medoro</forename>
+              <surname>Savini</surname>
+            </persName>
+            <sex>M</sex>
+            <birth><date when="1833">1833</date></birth>
+            <death><date when="1888">1888</date></death>
+            <note source="https://www.treccani.it/enciclopedia/medoro-savini">Patriota e scrittore italiano.</note>
+          </person>
+
+          <person xml:id="massimo" n="3">
+            <persName type="fictional">
+              <roleName>Massimo</roleName>
+            </persName>
+            <sex>M</sex>
+            <note>Personaggio del romanzo "Addio!" di Neera.</note>
+          </person>
+
+          <person xml:id="valeria" n="4">
+            <persName type="fictional">
+              <roleName>Valeria</roleName>
+            </persName>
+            <sex>F</sex>
+            <note>Personaggio del romanzo "Addio!" di Neera.</note>
+          </person>
+
+          <person xml:id="attilio" n="1">
+            <persName type="fictional">
+              <roleName>Attilio</roleName>
+            </persName>
+            <sex>M</sex>
+            <note>Personaggio del romanzo "Addio!" di Neera.</note>
+          </person>
+
+          <person xml:id="bibliotecario" n="7">
+            <persName type="fictional">
+              <roleName>Bibliotecario</roleName>
+            </persName>
+            <note>Pseudonimo redazionale che firma "Farfallite Bibliografica".</note>
+          </person>
+
+          <person xml:id="luigiCapuana" n="8">
+            <persName type="real">
+              <ref target="https://www.wikidata.org/wiki/Q468662"/>
+              <forename>Luigi</forename>
+              <surname>Capuana</surname>
+            </persName>
+            <idno type="VIAF">http://viaf.org/viaf/24615920</idno>
+            <sex>M</sex>
+            <birth><date when="1839">1839</date></birth>
+            <death><date when="1915">1915</date></death>
+            <note source="https://www.treccani.it/enciclopedia/luigi-capuana">Scrittore italiano, professore nell'Istituto superiore di magistero in Roma e poi nell'università di Catania; esordì come poeta, ma la sua attività si volse ben presto alla critica letteraria e alla narrativa.</note>
+          </person>
+
+          <person xml:id="delfina" n="1">
+            <persName type="fictional">
+              <roleName>Delfina</roleName>
+            </persName>
+            <sex>F</sex>
+            <note>Personaggio di "Profili di donna" di Capuana.</note>
+          </person>
+
+          <person xml:id="giulia" n="1">
+            <persName type="fictional">
+              <roleName>Giulia</roleName>
+            </persName>
+            <sex>F</sex>
+            <note>Personaggio di "Profili di donna" di Capuana.</note>
+          </person>
+
+          <person xml:id="fasma" n="1">
+            <persName type="fictional">
+              <roleName>Fasma</roleName>
+            </persName>
+            <sex>F</sex>
+            <note>Personaggio di "Profili di donna" di Capuana.</note>
+          </person>
+
+          <person xml:id="ebe" n="1">
+            <persName type="fictional">
+              <roleName>Ebe</roleName>
+            </persName>
+            <sex>F</sex>
+            <note>Personaggio di "Profili di donna" di Capuana.</note>
+          </person>
+
+          <person xml:id="jela" n="1">
+            <persName type="fictional">
+              <roleName>Jela</roleName>
+            </persName>
+            <sex>F</sex>
+            <note>Personaggio di "Profili di donna" di Capuana.</note>
+          </person>
+
+          <person xml:id="cecilia" n="1">
+            <persName type="fictional">
+              <roleName>Cecilia</roleName>
+            </persName>
+            <sex>F</sex>
+            <note>Personaggio di "Profili di donna" di Capuana.</note>
+          </person>
+
+          <person xml:id="alexandreDumasfiglio" n="1">
+            <persName type="real">
+              <ref target="https://www.wikidata.org/wiki/Q169150"/>
+              <forename>Alexandre</forename>
+              <surname>Dumas</surname>
+              <addName type="pseudonym">Dumas figlio</addName>
+            </persName>
+            <idno type="VIAF">http://viaf.org/viaf/76315034</idno>
+            <sex>M</sex>
+            <birth><date when="1824">1824</date></birth>
+            <death><date when="1895">1895</date></death>
+            <note source="https://www.treccani.it/enciclopedia/alexandre-dumas_res-eb3e0b82-86d5-11dc-9a1b-0016357eee51">Scrittore, figlio naturale di Alexandre Dumas padre.</note>
+          </person>
+
+          <person xml:id="emmanuelGonzales" n="1">
+            <persName type="real">
+              <ref target="https://www.wikidata.org/wiki/Q3052714"/>
+              <forename>Emmanuel</forename>
+              <surname>Gonzales</surname>
+            </persName>
+            <idno type="VIAF">http://viaf.org/viaf/24722314</idno>
+            <sex>M</sex>
+            <birth><date when="1815">1815</date></birth>
+            <death><date when="1887">1887</date></death>
+            <note source="https://www.wikidata.org/wiki/Q3052714">Autore di romanzi d'appendice e drammaturgo francese del XIX secolo.</note>
+          </person>
+
+          <person xml:id="feliceCameroni" n="1">
+            <persName type="real">
+              <ref target="https://www.wikidata.org/wiki/Q3742120"/>
+              <forename>Felice</forename>
+              <surname>Cameroni</surname>
+            </persName>
+            <idno type="VIAF">http://viaf.org/viaf/17265183</idno>
+            <sex>M</sex>
+            <birth><date when="1844">1844</date></birth>
+            <death><date when="1913">1913</date></death>
+            <note source="https://www.treccani.it/enciclopedia/felice-cameroni_(Dizionario-Biografico)">Critico letterario e giornalista italiano.</note>
+          </person>
+
+          <person xml:id="enricoOnufrio" n="2">
+            <persName type="real" role="author">
+              <ref target="https://www.wikidata.org/wiki/Q3725957"/>
+              <forename>Enrico</forename>
+              <surname>Onufrio</surname>
+            </persName>
+            <idno type="VIAF">http://viaf.org/viaf/44601888</idno>
+            <sex>M</sex>
+            <birth><date when="1858">1858</date></birth>
+            <death><date when="1885">1885</date></death>
+            <note source="https://www.treccani.it/enciclopedia/enrico-onufrio">Scrittore e giornalista italiano.</note>
+          </person>
+
+          <person xml:id="sidneySonnino" n="1">
+            <persName type="real">
+              <ref target="https://www.wikidata.org/wiki/Q320922"/>
+              <forename>Sidney</forename>
+              <forename>Costantino</forename>
+              <surname>Sonnino</surname>
+            </persName>
+            <idno type="VIAF">http://viaf.org/viaf/7411466</idno>
+            <sex>M</sex>
+            <birth><date when="1847">1847</date></birth>
+            <death><date when="1922">1922</date></death>
+            <note source="https://www.treccani.it/enciclopedia/sonnino-sidney-costantino-barone">Uomo politico italiano.</note>
+          </person>
+
+          <person xml:id="leopoldoFranchetti" n="1">
+            <persName type="real">
+              <ref target="https://www.wikidata.org/wiki/Q3830696"/>
+              <forename>Leopoldo</forename>
+              <surname>Franchetti</surname>
+            </persName>
+            <idno type="VIAF">http://viaf.org/viaf/14794584</idno>
+            <sex>M</sex>
+            <birth><date when="1847">1847</date></birth>
+            <death><date when="1917">1917</date></death>
+            <note source="https://www.treccani.it/enciclopedia/leopoldo-franchetti">Pubblicista e uomo politico italiano.</note>
+          </person>
+
+          <person xml:id="ciclopi" n="1">
+            <persName type="fictional">
+              <roleName>Ciclopi</roleName>
+            </persName>
+            <note>Personaggi della mitologia greca comunemente raffigurati come giganti con un occhio solo al centro della fronte</note>
+          </person>
+
+          <person xml:id="teocrito" n="1">
+            <persName type="real">
+              <ref target="https://www.wikidata.org/wiki/Q219484"/>
+              <forename>Teocrito</forename>
+            </persName>
+            <idno type="VIAF">http://viaf.org/viaf/95161348</idno>
+            <sex>M</sex>
+            <birth><date when="-0300">III secolo a.C.</date></birth>
+            <death><date when="-0250">II secolo a.C.</date></death>
+            <note source="https://www.treccani.it/enciclopedia/teocrito">Uno dei maggiori poeti greci dell'età ellenistica; scrisse molto: inni, elegie, liriche, giambi, epigrammi, ma il genere per il quale diventò famoso già nell'antichità è il bucolico.</note>
+          </person>
+
+          <person xml:id="aristarco" n="1">
+            <persName type="real">
+              <ref target="https://www.wikidata.org/wiki/Q312114"/>
+              <forename>Aristarco</forename>
+              <surname>di Samotracia</surname>
+            </persName>
+            <idno type="VIAF">http://viaf.org/viaf/43254199</idno>
+            <sex>M</sex>
+            <birth><date when="-0220">II secolo a.C.</date></birth>
+            <death><date when="-0145">I secolo a.C.</date></death>
+            <note source="https://www.treccani.it/enciclopedia/aristarco-di-samotracia">Filologo e critico letterario greco, fu allievo di Aristofane di Bisanzio e suo successore nella direzione della Biblioteca di Alessandria.</note>
+          </person>
+
+          <person xml:id="clio" n="1">
+            <persName type="fictional">
+              <roleName>Clio</roleName>
+            </persName>
+            <sex>F</sex>
+            <note>Una delle nove Muse della mitologia greca, consacrata e riconosciuta come patrona della Storia.</note>
+          </person>
+
+          <person xml:id="vincenzoBignami" n="1">
+            <persName type="real">
+              <forename>Vincenzo</forename>
+              <surname>Bignami</surname>
+            </persName>
+            <sex>M</sex>
+            <note>Funzionario di polizia al centro del grave scandalo politico-amministrativo in Sicilia tra il 1876 e il 1877.</note>
+          </person>
+
+          <personGrp xml:id="borbone" n="1" role="relatives">
+            <idno type="WikiData">https://www.wikidata.org/wiki/Q58389</idno>
+            <note source="https://www.treccani.it/enciclopedia/borbone">Famiglia reale di origine francese che regnò in parecchi stati dell'Europa occidentale e meridionale, e fu, con gli Asburgo, la più potente famiglia principesca d'Europa.</note>
+          </personGrp>
+
+          <person xml:id="nemo" n="2">
+            <persName type="fictional">
+              <roleName>Nemo</roleName>
+            </persName>
+            <note>Pseudonimo redazionale che firma "Bibliografia".</note>
+          </person>
+
+          <person xml:id="titoCarloDalbono" n="5">
+            <persName type="real">
+              <ref target="https://www.wikidata.org/wiki/Q3659897"/>
+              <forename>Tito</forename>
+              <forename>Carlo</forename>
+              <surname>Dalbono</surname>
+            </persName>
+            <idno type="VIAF">http://viaf.org/viaf/32374580</idno>
+            <sex>M</sex>
+            <birth><date when="1817">1817</date></birth>
+            <death><date when="1880">1880</date></death>
+            <note source="https://www.treccani.it/enciclopedia/carlo-tito-dalbono_(Dizionario-Biografico)">Storico, romanziere e critico d'arte italiano.</note>
+          </person>
+
+          <person xml:id="giosafatteTalarico" n="10">
+            <persName type="real">
+              <forename>Giosafatte</forename>
+              <surname>Talarico</surname>
+            </persName>
+            <sex>M</sex>
+            <birth><date when="1805">1805</date></birth>
+            <death><date when="1886">1886</date></death>
+            <note>Uno dei più celebri e leggendari briganti calabresi dell'Ottocento, spesso ricordato dalla tradizione popolare come il "Robin Hood della Sila". La sua figura è passata alla storia per un forte codice d'onore, l'astuzia e la generosità verso i ceti più poveri.</note>
+          </person>
+
+          <person xml:id="saverioDelCarretto" n="2">
+            <persName type="real">
+              <ref target="https://www.wikidata.org/wiki/Q3750610"/>
+              <forename>Francesco</forename>
+              <forename>Saverio</forename>
+              <surname>Del Carretto</surname>
+            </persName>
+            <idno type="VIAF">http://viaf.org/viaf/1194158982590256190003</idno>
+            <sex>M</sex>
+            <birth><date when="1777">1777</date></birth>
+            <death><date when="1861">1861</date></death>
+            <note source="https://www.treccani.it/enciclopedia/del-carretto-francesco-saverio">Militare e uomo politico, seguì i Borboni in Sicilia e combatté in Spagna.</note>
+          </person>
+
+          <person xml:id="ferdinandoIIDiBorbone" n="1">
+            <persName type="real">
+              <ref target="https://www.wikidata.org/wiki/Q332717"/>
+              <forename>Ferdinando</forename>
+              <forename>Carlo</forename>
+              <forename>Maria</forename>
+              <surname>Borbone</surname>
+              <addName type="title">Re delle Due Sicilie</addName>
+            </persName>
+            <idno type="VIAF">http://viaf.org/viaf/45113476</idno>
+            <sex>M</sex>
+            <birth><date when="1810">1810</date></birth>
+            <death><date when="1859">1859</date></death>
+            <note source="https://www.treccani.it/enciclopedia/ferdinando-ii-di-borbone-re-delle-due-sicilie">Figlio di Francesco I, si rivelò un abile e onesto amministratore; fu inoltre gelosissimo dell'indipendenza del regno e finì per giungere a un isolamento internazionale che si rivelò pernicioso.</note>
+          </person>
+
+          <person xml:id="oscarPio" n="2">
+            <persName type="real">
+              <ref target="https://www.wikidata.org/wiki/Q97065099"/>
+              <forename>Oscar</forename>
+              <surname>Pio</surname>
+            </persName>
+            <idno type="VIAF">http://viaf.org/viaf/301754831</idno>
+            <sex>M</sex>
+            <birth><date when="1836">1836</date></birth>
+            <death><date when="1905">1905</date></death>
+            <note source="https://www.wikidata.org/wiki/Q97065099">Storico, poeta, romanziere, drammaturgo e avvocato italiano.</note>
+          </person>
+
+          <person xml:id="frizzo" n="10">
+            <persName type="real">
+              <forename>Enrico</forename>
+              <surname>Gropallo</surname>
+              <addName type="pseudonym">Frizzo</addName>
+              <addName type="title">Marchese</addName>
+            </persName>
+            <idno type="VIAF">http://viaf.org/viaf/88812604</idno>
+            <sex>M</sex>
+            <note>Politico, giornalista e scrittore genovese.</note>
+          </person>
+
+          <person xml:id="emilioPraga" n="4">
+            <persName type="real">
+              <ref target="https://www.wikidata.org/wiki/Q3724493"/>
+              <forename>Emilio</forename>
+              <surname>Praga</surname>
+            </persName>
+            <idno type="VIAF">http://viaf.org/viaf/12348270</idno>
+            <sex>M</sex>
+            <birth><date when="1839">1839</date></birth>
+            <death><date when="1875">1875</date></death>
+            <note source="https://www.treccani.it/enciclopedia/emilio-praga">Fu tra i principali esponenti della scapigliatura milanese, della quale incarnò anche nella vita gli aspetti più ribelli e sregolati. Fu inoltre pittore e autore di diversi libretti d'opera.</note>
+          </person>
+
+          <person xml:id="erminioFurlani" n="2">
+            <persName type="real">
+              <forename>Erminio</forename>
+              <surname>Furlani</surname>
+            </persName>
+            <sex>M</sex>
+            <note>Critico militante e giornalista italiano.</note>
+          </person>
+
+        </listPerson>
+
+        <!-- Lista dei luoghi -->
+        <listPlace>
+
+          <place xml:id="CA" n="9" type="real">
+            <placeName ref="https://www.geonames.org/2525473/cagliari.html">Cagliari</placeName>
+            <country key="IT">Italia</country>
+            <note source="https://www.treccani.it/enciclopedia/cagliari">Comune della Sardegna meridionale, città metropolitana e capoluogo di regione; sede del governo regionale sardo.</note>
+          </place>
+
+          <place xml:id="MI" n="6" type="real">
+            <placeName ref="https://www.geonames.org/3173435/milan.html">Milano</placeName>
+            <country key="IT">Italia</country>
+            <note source="https://www.treccani.it/enciclopedia/milano">Comune della Lombardia, capoluogo di regione e città metropolitana; costituisce la massima concentrazione delle forme più moderne e dinamiche dell’economia del paese.</note>
+          </place>
+
+          <place xml:id="costantinopoli" n="1" type="real">
+            <placeName ref="https://www.wikidata.org/wiki/Q406">Costantinopoli</placeName>
+            <country key="TR">Turchia</country>
+            <note source="https://www.treccani.it/enciclopedia/costantinopoli">Città fondata dall’imperatore Costantino sul luogo dell’antica Bisanzio nel 330; capitale dell’Impero bizantino fino al 1453 quando fu conquistata dai Turchi (da allora prevalse il nome İstanbul).</note>
+          </place>
+
+          <place xml:id="fiandra" n="1" type="real">
+            <placeName ref="https://www.wikidata.org/wiki/Q234">Fiandra</placeName>
+            <country key="BE">Belgio</country>
+            <note source="https://www.treccani.it/enciclopedia/fiandra">Regione storica del Belgio che corrisponde geograficamente alla zona bassa fra i fiumi Lys e Schelda e lo Stretto di Calais. Creata in buona parte dall’uomo, non ha precisi confini naturali; l’unico criterio di delimitazione può essere quello linguistico (i dialetti fiamminghi).</note>
+          </place>
+
+          <place xml:id="chantilly" n="1" type="real">
+            <placeName ref="https://www.geonames.org/3026827/chantilly.html">Chantilly</placeName>
+            <country key="FR">Francia</country>
+            <note source="https://www.treccani.it/enciclopedia/chantilly">Centro della Francia nel dipartimento dell’Oise.</note>
+          </place>
+
+          <place xml:id="grecia" n="1" type="real">
+            <placeName ref="https://www.geonames.org/390903/hellenic-republic.html">Grecia</placeName>
+            <note source="https://www.treccani.it/enciclopedia/grecia">Stato dell’Europa meridionale, comprendente la parte inferiore della Penisola Balcanica, gli arcipelaghi delle Ionie e dell’Egeo e l’isola di Creta.</note>
+          </place>
+
+          <place xml:id="sicilia" n="14" type="real">
+            <placeName ref="https://www.geonames.org/2523118/sicily.html">Sicilia</placeName>
+            <country key="IT">Italia</country>
+            <note source="https://www.treccani.it/enciclopedia/sicilia_res-51b7c2ab-973b-11e5-8844-00271042e8d9">Regione a statuto speciale dell’Italia insulare costituita dall’isola omonima (la più estesa del Mediterraneo) e da numerose isole minori.</note>
+          </place>
+
+          <place xml:id="NA" n="1" type="real">
+            <placeName ref="https://www.geonames.org/3172394/naples.html">Napoli</placeName>
+            <country key="IT">Italia</country>
+            <note source="https://www.treccani.it/enciclopedia/napoli">Comune della Campania, capoluogo di regione e città metropolitana.</note>
+          </place>
+
+          <place xml:id="PA" n="2" type="real">
+            <placeName ref="https://www.geonames.org/2523920/palermo.html">Palermo</placeName>
+            <country key="IT">Italia</country>
+            <note source="https://www.treccani.it/enciclopedia/palermo">Comune della Sicilia, città metropolitana e capoluogo di regione situato sulla costa nord-occidentale dell’isola, all’interno dell’omonimo golfo.</note>
+          </place>
+
+          <place xml:id="italia" n="4" type="real">
+            <placeName ref="https://www.treccani.it/enciclopedia/italia">Italia</placeName>
+            <note source="https://www.treccani.it/enciclopedia/italia">Stato dell’Europa meridionale corrispondente a una delle regioni naturali europee meglio individuate, data la nettezza dei confini marittimi e di quello terrestre.</note>
+          </place>
+
+          <place xml:id="parigi" n="1" type="real">
+            <placeName ref="https://www.geonames.org/2988507/paris.html">Parigi</placeName>
+            <country key="FR">Francia</country>
+            <note source="https://www.treccani.it/enciclopedia/parigi">Città capitale della Francia, è situata sulle rive della Senna, al centro dell’Île-de-France, e alla confluenza nella Senna della Marna e dell’Oise.</note>
+          </place>
+
+          <place xml:id="londra" n="2" type="real">
+            <placeName ref="https://www.geonames.org/2643743/london.html">Londra</placeName>
+            <country key="GB">Regno Unito</country>
+            <note source="https://www.treccani.it/enciclopedia/londra">Città dell’Inghilterra, capitale della Gran Bretagna e centro commerciale, bancario e culturale fra i maggiori del mondo.</note>
+          </place>
+
+          <place xml:id="CS" n="1" type="real">
+            <placeName ref="https://www.geonames.org/2524907/cosenza.html">Cosenza</placeName>
+            <country key="IT">Italia</country>
+            <note source="https://www.treccani.it/enciclopedia/cosenza">Comune della Calabria, città capoluogo di provincia situata nella parte settentrionale della regione.</note>
+          </place>
+
+          <place xml:id="sila" n="2" type="real">
+            <placeName ref="https://www.geonames.org/2524436/la-sila.html">Sila</placeName>
+            <country key="IT">Italia</country>
+            <note source="https://www.treccani.it/enciclopedia/sila">Massiccio montuoso situato nella parte centrale dell’Appennino Calabro.</note>
+          </place>
+
+          <place xml:id="GE" n="1" type="real">
+            <placeName ref="https://www.geonames.org/3176219/genoa.html">Genova</placeName>
+            <country key="IT">Italia</country>
+            <note source="https://www.treccani.it/enciclopedia/genova">Comune della Liguria, capoluogo di regione e città metropolitana; sorge nel punto più interno dell’arco litoraneo ligure a ridosso dell’Appennino.</note>
+          </place>
+
+        </listPlace>
+
+        <!-- Lista delle organizzazioni -->
+        <listOrg xml:id="organizzazioni">
+
+          <org xml:id="farfalla" n="5" type="journal">
+            <orgName>La Farfalla</orgName>
+            <placeName ref="#CA">Cagliari</placeName>
+            <desc>Uno dei più vivaci e spregiudicati laboratori letterari della Milano di fine Ottocento, fondamentale per l'affermazione della Scapigliatura e del primo Verismo in Italia.</desc>
+          </org>
+
+          <org xml:id="libreriaBrigola" n="4" type="publisher">
+            <orgName>Libreria Brigola</orgName>
+            <placeName ref="#MI">Milano</placeName>
+            <desc>Casa editrice milanese cruciale per il lancio della Scapigliatura e dei capolavori del primo Verismo.</desc>
+          </org>
+
+          <org xml:id="sole" n="1" type="journal">
+            <orgName>Il Sole</orgName>
+            <placeName ref="#MI">Milano</placeName>
+            <desc>Quotidiano economico-commerciale caratterizzato da uno stile di comunicazione pragmatico, rigoroso e strettamente orientato ai dati tecnici del mondo degli affari.</desc>
+          </org>
+
+          <org xml:id="bibliotecaAlessandrina" n="1" type="library">
+            <orgName>Biblioteca Alessandrina</orgName>
+            <placeName>Roma</placeName>
+            <desc>Cuore pulsante della conoscenza del mondo antico e primo vero centro di ricerca universale della storia.</desc>
+          </org>
+
+          <org xml:id="nuovaAntologia" n="1" type="journal">
+            <orgName>Nuova Antologia</orgName>
+            <placeName>Firenze</placeName>
+            <desc>Una delle più longeve e prestigiose riviste culturali in attività.</desc>
+          </org>
+
+          <org xml:id="avvenireDiSardegna" n="1" type="publisher">
+            <orgName>Tipografia dell’Avvenire di Sardegna</orgName>
+            <placeName ref="#CA">Cagliari</placeName>
+            <desc>Casa editrice sarda attiva alla fine dell’Ottocento e strettamente legata alla nascita e alla stampa dell'omonimo quotidiano politico.</desc>
+          </org>
+
+          <org xml:id="tipografiaNataleBattezzati" n="1" type="publisher">
+            <orgName>Tipografia Natale Battezzati</orgName>
+            <placeName ref="#MI">Milano</placeName>
+            <desc>Casa editrice milanese che univa la produzione di libri a una visione scientifica e organizzativa del commercio librario.</desc>
+          </org>
+
+        </listOrg>
+
+      </sourceDesc>
+
+    </fileDesc>
+
+    <!-- Lista dei temi -->
+    <encodingDesc>
+
+      <classDecl>
+
+        <taxonomy xml:id="temi">
+
+          <category xml:id="istruzioneDonne">
+            <catDesc><term type="themes">Istruzione delle donne</term>: La condizione intellettuale e morale della donna nell'Italia postunitaria, con particolare
+            riguardo al suo ruolo di lettrice, scrittrice e destinataria di una letteratura che ne formi il carattere. Nella Farfalla il tema emerge nelle
+            recensioni a opere femminili dove il bibliotecario discute il valore educativo della narrativa scritta da donne e rivolta alle «donne oneste»,
+            riflettendo sulla capacità femminile di eccellere nella scrittura di romanzi rispetto agli uomini.</catDesc>
+          </category>
+
+          <category xml:id="ritrattoFemminile">
+            <catDesc><term type="themes">Ritratto femminile</term>: La rappresentazione letteraria di figure e tipi femminili attraverso la tecnica del profilo, del
+            bozzetto e dello studio di carattere. Nella Farfalla il tema è centrale nella recensione ai <title rend="italic">Profili di donna</title> di Luigi Capuana,
+            dove il recensore analizza come l'autore fissi sulla pagina una galleria di personaggi femminili, lavorando sul fondo rigorosamente «vero» della nuova
+            scuola verista pur conservando il fascino e la grazia della narrazione.</catDesc>
+          </category>
+
+          <category xml:id="conflittoSociale">
+            <catDesc><term type="themes">Conflitto sociale</term>: Le tensioni tra classi, istituzioni e territori nell'Italia postunitaria, con attenzione alle
+            dinamiche di potere, alla repressione poliziesca e alle disuguaglianze strutturali. Nell'articolo <title rend="italic">La mafia</title> di Enrico Onufrio
+            il tema si declina come polemica contro la rappresentazione stigmatizzante della Sicilia da parte della stampa nazionale e straniera: l'autore contesta
+            l'equazione Sicilia-mafia, denuncia l'assenza di una polizia onesta e competente (eredità della sbirraglia borbonica, trasformata in strumento di
+            tirannide) e distingue tra camorra, brigantaggio, malandrinaggio e manutengolismo come fenomeni socialmente e geograficamente distinti.</catDesc>
+          </category>
+
+          <category xml:id="vitaRurale">
+            <catDesc><term type="themes">Vita rurale</term>: Le condizioni economiche e sociali delle popolazioni contadine, specialmente nel Mezzogiorno.
+            Nell'articolo <title rend="italic">La mafia</title> di Enrico Onufrio il tema emerge nella denuncia della scarsa retribuzione dei contadini siciliani e
+            nell'attesa (dichiarata senza illusioni) dei risultati della commissione parlamentare per l'inchiesta agraria, richiamata dall'autore come esempio
+            dell'inerzia istituzionale italiana verso la questione fondiaria meridionale.</catDesc>
+          </category>
+
+          <category xml:id="brigantaggioMeridionale">
+            <catDesc><term type="themes">Brigantaggio meridionale</term>: Il fenomeno del brigantaggio nel Mezzogiorno borbonico e postunitario, narrato sia come
+            vicenda individuale sia come piaga sociale. Nella recensione al racconto <title rend="italic">Giosafatte Talarico</title> di Tito Carlo Dalbono, il
+            recensore Nemo ricostruisce la parabola del celebre brigante calabrese (dalla vendetta d'onore alla latitanza sulle Sile, dalla cattura mancata alla
+            resa davanti al vescovo) e sottolinea come la «piaga del brigantaggio» richieda una cura diversa da quella tentata dal governo per sedici anni,
+            auspicando il coinvolgimento attivo delle popolazioni locali.</catDesc>
+          </category>
+
+          <category xml:id="questioneMeridionale">
+            <catDesc><term type="themes">Questione meridionale</term>: Il divario politico, economico e sociale tra il Mezzogiorno e il resto d'Italia nel
+            dibattito pubblico dell'Ottocento. Nella Farfalla il tema attraversa la recensione al racconto <title rend="italic">Giosafatte Talarico</title> (dove il
+            brigantaggio calabrese è letto come sintomo di un fallimento governativo nella gestione dell'ordine pubblico e dell'integrazione delle province
+            meridionali) e, in modo complementare, l'articolo <title rend="italic">La mafia</title>, che affronta la percezione distorta della Sicilia da parte
+            dell'opinione pubblica continentale, il dibattito suscitato dall'inchiesta Sonnino-Franchetti e l'insufficienza delle politiche statali.</catDesc>
+          </category>
+
+          <category xml:id="storiaEcclesiastica">
+            <catDesc><term type="themes">Storia ecclesiastica</term>: La storia della Chiesa cattolica e delle sue istituzioni, con particolare riguardo ai
+            meccanismi interni di governo. Nella Farfalla il tema compare nella breve notizia bibliografica dedicata alla <title rend="italic">Storia segreta dei
+            Conclavi</title> di Oscar Pio, pubblicata dalla tipografia Battezzati di Milano: il recensore Nemo ne elogia l'esposizione ordinata, la ricchezza di
+            notizie e la bella elocuzione, annunciando una trattazione più diffusa dopo la lettura dei volumi successivi.</catDesc>
+          </category>
+
+          <category xml:id="criminalitaOrganizzata">
+            <catDesc><term type="themes">Criminalità organizzata</term>: Le forme di criminalità strutturata — mafia, camorra, manutengolismo — nel dibattito
+            giornalistico e politico dell'Italia postunitaria. Nell'articolo <title rend="italic">La mafia</title> Enrico Onufrio distingue con precisione
+            polemica tra fenomeni spesso confusi: la camorra come realtà carceraria e interprovinciale, non esclusivamente siciliana; il malandrinaggio e il
+            manutengolismo come prodotti dell'assenza di una polizia degna; la mafia come «incognita» di un'equazione che nessuno (né i giornali d'oltremonte né
+            l'inchiesta Sonnino-Franchetti) è riuscito a risolvere. L'autore rifiuta la criminalizzazione generalizzata della Sicilia e riconduce il problema a
+            cause istituzionali ed economiche.</catDesc>
+          </category>
+
+          <category xml:id="scapigliatura">
+            <catDesc><term type="themes">Scapigliatura</term>: Il movimento letterario e artistico milanese della seconda metà dell'Ottocento, caratterizzato da
+            anticonformismo, attenzione al vero e rifiuto dell'accademismo. Nella recensione a <title rend="italic">Debiti</title> di Frizzo, il critico Erminio
+            Furlani colloca il giovane poeta nella filiazione della Scapigliatura attraverso il richiamo esplicito a Emilio Praga (figura emblematica del movimento)
+            di cui Frizzo riprende toni e soggetti in due sestine giudicate «bellissime». Il recensore apprezza il verismo di Frizzo proprio perché non cade «nel
+            vacuo, nel sordido e nel manierato» degli epigoni, distinguendolo dai «poetini in elzevir» della moda corrente.</catDesc>
+          </category>
+
+          <category xml:id="poesiaSociale">
+            <catDesc><term type="themes">Questione sociale nella poesia</term>: L'irruzione di temi umanitari e di denuncia sociale nella produzione poetica verista
+            e post-scapigliata. Nella recensione a <title rend="italic">Debiti</title> di Frizzo, il critico Erminio Furlani individua il vertice della raccolta
+            nelle poesie «propriamente veriste, cioè umanitarie e sociali», in particolare <title rend="italic">Nell'Arena</title>, dedicata a una bambina costretta
+            a esibirsi nel circo: il vestito color di rosa che «copre la fame» e il sorriso che «domanda del pane» incarnano una poetica che trasforma la compassione
+            in atto d'accusa, segnando il passaggio dalla lirica intimista al realismo impegnato.</catDesc>
+          </category>
+
+        </taxonomy>
+
+      </classDecl>
+
+    </encodingDesc>
+
+  </teiHeader>
+
+  <text>
+
+    <body>
+      <p>Questo file raccoglie le liste di entità nominate (persone, luoghi, enti, opere, temi) per l'edizione digitale di una selezione di articoli ed entrate bibliografiche della rivista La Farfalla, sul modello delle liste di autorità del progetto COVerLeSS.</p>
+    </body>
+
+    <back>
+
+      <!-- Lista delle opere -->
+      <div type="work">
+
+        <listBibl xml:id="opere" type="opere">
+
+          <biblStruct xml:id="addio" n="6">
+            <monogr>
+              <author ref="#neera">Neera</author>
+              <title level="m">Addio!</title>
+              <imprint>
+                <publisher ref="#libreriaBrigola">Libreria Brigola</publisher>
+                <pubPlace ref="#MI">Milano</pubPlace>
+                <date when="1877">1877</date>
+              </imprint>
+            </monogr>
+            <note>Romanzo psicologico che affronta il dramma interiore di una donna intrappolata tra le convenzioni sociali e la passione amorosa.</note>
+          </biblStruct>
+
+          <biblStruct xml:id="profiliDiDonne" n="3">
+            <monogr>
+              <author ref="#luigiCapuana">Luigi Capuana</author>
+              <title level="m">Profili di donne</title>
+              <imprint>
+                <publisher ref="#libreriaBrigola">Libreria Brigola</publisher>
+                <pubPlace ref="#MI">Milano</pubPlace>
+                <date when="1877">1877</date>
+              </imprint>
+            </monogr>
+            <note>Raccolta di novelle che contiene sei racconti dedicati ad altrettante figure femminili della borghesia cittadina; L'obiettivo è applicare gli studi di psicologia sperimentale e positivista per esplorare la mente e i tormenti del genere femminile.</note>
+          </biblStruct>
+
+          <biblStruct xml:id="madriPerRidere" n="1">
+            <monogr>
+              <author>Cesare Tronconi</author>
+              <title level="m">Madri... per ridere</title>
+              <imprint>
+                <publisher>Galli</publisher>
+                <publisher>Omodei</publisher>
+                <pubPlace ref="#MI">Milano</pubPlace>
+                <date when="1877">1877</date>
+              </imprint>
+            </monogr>
+            <note>Romanzo che racconta la storia di Maddalena, una giovane donna cinica e disgraziata guidata dalla misteriosa Severina. Dopo un primo amore ingannevole, Maddalena si trasforma in una moglie e madre apatica, finendo per sfidare e colpire la società borghese del tempo con un sorriso sinistro e provocatorio.</note>
+          </biblStruct>
+
+          <biblStruct xml:id="giosafatteTalaricoRacconto" n="3">
+            <monogr>
+              <author ref="#titoCarloDalbono">Tito Carlo Dalbono</author>
+              <title level="m">Giosafatte Talarico. Racconto</title>
+              <imprint>
+                <publisher ref="#avvenireDiSardegna">Tipografia dell’Avvenire di Sardegna</publisher>
+                <pubPlace ref="#CA">Cagliari</pubPlace>
+                <date when="1875">1875</date>
+              </imprint>
+            </monogr>
+            <note>Racconto a sfondo storico e biografico che narra le vicende del brigante calabrese Giosafatte Talarico.</note>
+          </biblStruct>
+
+          <biblStruct xml:id="storiaSegretaDeiConclavi" n="3">
+            <monogr>
+              <author ref="#oscarPio">Oscar Pio</author>
+              <title level="m">Storia segreta dei conclavi</title>
+              <imprint>
+                <publisher ref="#tipografiaNataleBattezzati">Tipografia Natale Battezzati</publisher>
+                <pubPlace ref="#MI">Milano</pubPlace>
+                <date when="1876">1876</date>
+              </imprint>
+            </monogr>
+            <note>Opera saggistica di carattere storico e divulgativo che ha come scopo principale quello di svelare meccanismi politici, complotti ed interferenze profane che si nascondevano dietro l'apparente sacralità dell'elezione dei pontefici.</note>
+          </biblStruct>
+
+          <biblStruct xml:id="debiti" n="3">
+            <monogr>
+              <author ref="#frizzo">Frizzo</author>
+              <title level="m">Debiti</title>
+              <imprint>
+                <publisher>Tipografia del Regio Istituto Sordo-Muti</publisher>
+                <pubPlace ref="#GE">Genova</pubPlace>
+                <date when="1879">1879</date>
+              </imprint>
+            </monogr>
+            <note>Raccolta di poesie che affronta temi sociali e umanitari, con particolare attenzione alla condizione dei più deboli e alla denuncia delle ingiustizie.</note>
+          </biblStruct>
+
+          <biblStruct xml:id="allaFinestra" n="1">
+            <monogr>
+              <author ref="#frizzo">Frizzo</author>
+              <title level="m">Alla finestra</title>
+              <imprint>
+                <publisher>Tipografia del Regio Istituto Sordo-Muti</publisher>
+                <pubPlace ref="#GE">Genova</pubPlace>
+                <date when="1879">1879</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+
+          <biblStruct xml:id="perUnoSguardo" n="1">
+            <monogr>
+              <author ref="#frizzo">Frizzo</author>
+              <title level="m">Per uno sguardo</title>
+              <imprint>
+                <publisher>Tipografia del Regio Istituto Sordo-Muti</publisher>
+                <pubPlace ref="#GE">Genova</pubPlace>
+                <date when="1879">1879</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+
+          <biblStruct xml:id="meriggio" n="1">
+            <monogr>
+              <author ref="#frizzo">Frizzo</author>
+              <title level="m">Meriggio</title>
+              <imprint>
+                <publisher>Tipografia del Regio Istituto Sordo-Muti</publisher>
+                <pubPlace ref="#GE">Genova</pubPlace>
+                <date when="1879">1879</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+
+          <biblStruct xml:id="primavera" n="1">
+            <monogr>
+              <author ref="#frizzo">Frizzo</author>
+              <title level="m">Primavera</title>
+              <imprint>
+                <publisher>Tipografia del Regio Istituto Sordo-Muti</publisher>
+                <pubPlace ref="#GE">Genova</pubPlace>
+                <date when="1879">1879</date>
+              </imprint>
+            </monogr>
+          </biblStruct>
+
+          <biblStruct xml:id="nellArena" n="2">
+            <monogr>
+              <author ref="#frizzo">Frizzo</author>
+              <title level="m">Nell’arena</title>
+              <imprint>
+                <publisher>Tipografia del Regio Istituto Sordo-Muti</publisher>
+                <pubPlace ref="#GE">Genova</pubPlace>
+                <date when="1879">1879</date>
+              </imprint>
+            </monogr>
+            <note>Poesia che descrive la dolorosa condizione di una giovane donna costretta alla prostituzione per sopravvivenza, evidenziando il contrasto tra la finzione di un'apparenza gaia e la tragica realtà della miseria.</note>
+          </biblStruct>
+
+          <biblStruct xml:id="emilioPragaPoesia" n="2">
+            <monogr>
+              <author ref="#frizzo">Frizzo</author>
+              <title level="m">Emilio Praga</title>
+              <imprint>
+                <publisher>Tipografia del Regio Istituto Sordo-Muti</publisher>
+                <pubPlace ref="#GE">Genova</pubPlace>
+                <date when="1879">1879</date>
+              </imprint>
+            </monogr>
+            <note>Poesia che evoca un'atmosfera malinconica che si interrompe improvvisamente a causa della morte del poeta, il quale non può più trarre ispirazione dalla purezza dei bambini.</note>
+          </biblStruct>
+
+        </listBibl>
+
+      </div>
+
+    </back>
+
+  </text>
+
+</TEI>
